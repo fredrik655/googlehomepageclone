@@ -9,7 +9,7 @@ header {
     background-color: rgb(255, 255, 255);
 }
 main {
-    background-color: rgb(90, 90, 142);
+    background-color: #fff;
 }
 footer {
     background-color: #f2f2f2;
@@ -74,20 +74,81 @@ a:hover {
 .search-box {
     display: flex;
     flex-direction: row;
-    border: solid 1px darkgreen;
-    border-radius: 10px
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    margin: 15px;
+    background-color: #fff;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-box>input {
+    width: 550px;
+    border: none;
 }
 
 #left-button {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    height: 30px;
+    background-color: darkslategray;
+    height: 44px;
+    margin-left: 16px;
+    border: none;
+}
+
+#right-button {
+    height: 44px;
+    margin-right: 16px;
+    width: 20px;
+    border: none;
+    background-image: url(images/tia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
 }
 
 .google-logo>img {
     padding-top: 10px;
     width: 272px;
     height: 92px;
+}
+
+#search-button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    color: #5F6368;
+}
+
+#feeling-lucky {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    color: #5F6368;
+}
+
+#search-button:hover{
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#feeling-lucky:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 
