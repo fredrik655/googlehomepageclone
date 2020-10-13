@@ -1,0 +1,96 @@
+
+
+body {
+    background-color: rgb(238, 66, 66);
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+main {
+    background-color: rgb(90, 90, 142);
+}
+footer {
+    background-color: #f2f2f2;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px 80% auto;
+    height: 100vh;
+}
+
+.header-div-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:  right;
+    height: 50px;
+}
+
+.header-div-2 {
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+#header-end {
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: .85;
+}
+
+.box {
+    background-color: darkcyan;
+    border-radius: 3px;
+    width: 32px;
+    height: 32px;
+}
+
+.search-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px darkgreen;
+    border-radius: 10px
+}
+
+#left-button {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 30px;
+}
+
+.google-logo>img {
+    padding-top: 10px;
+    width: 272px;
+    height: 92px;
+}
+
+
+
+
+
